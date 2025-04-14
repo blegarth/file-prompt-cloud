@@ -1,0 +1,43 @@
+# Core dependencies
+Flask>=2.0.0
+python-dotenv>=0.19.0
+typer>=0.9.0
+rich>=13.0.0
+cloudevents>=1.9.0
+
+# Google Cloud dependencies
+google-cloud-storage>=2.0.0
+google-cloud-pubsub>=2.0.0
+google-cloud-secret-manager>=2.0.0
+google-generativeai>=0.3.0
+google-cloud-functions>=1.12.0
+google-cloud-run>=0.7.0
+google-cloud-logging>=2.0.0
+google-cloud-monitoring>=2.0.0
+google-cloud-trace>=1.0.0
+google-cloud-storage-transfer>=1.0.0
+google-cloud-iam>=1.18.0
+
+# File processing dependencies
+python-magic>=0.4.27
+PyMuPDF>=1.23.0
+python-docx>=0.8.11
+Pillow>=10.0.0
+pytesseract>=0.3.10
+pandas>=2.0.0
+tabulate>=0.9.0
+python-pptx>=0.6.23
+openpyxl>=3.0.0  # For Excel file support
+xlrd>=2.0.0  # For older Excel file support
+
+# Monitoring and tracing
+opentelemetry-exporter-gcp-trace>=1.6.0
+
+# Development dependencies
+mypy>=1.5.0
+black>=23.7.0
+isort>=5.12.0
+flake8>=6.1.0
+
+# Serverless framework
+functions-framework>=3.4.0

@@ -1,0 +1,13 @@
+steps:
+  # Build the container image
+  - name: "gcr.io/cloud-builders/docker"
+    args: ["build", "-t", "gcr.io/file-prompt/file-prompt-service", "."]
+    env:
+      - "DOCKER_BUILDKIT=1"
+
+  # Push the container image to Container Registry
+  - name: "gcr.io/cloud-builders/docker"
+    args: ["push", "gcr.io/file-prompt/file-prompt-service"]
+
+images:
+  - "gcr.io/file-prompt/file-prompt-service"
