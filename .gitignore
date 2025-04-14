@@ -52,3 +52,4 @@ deployment/*.pem
 deployment/*.json
 deployment/credentials*
 deployment/secrets*
+deployment/deploy.sh
